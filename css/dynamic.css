@@ -1,0 +1,285 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
+{
+	margin: 0;
+    padding: 0;
+    font-family: Helvetica,
+    Tahoma,
+    Arial,
+    "Hiragino Sans GB",
+    "Hiragino Sans GB W3",
+    "Microsoft YaHei",
+    STXihei,
+    STHeiti,
+    Heiti,
+    SimSun,
+    sans - serif;
+    font-size: 100% ;
+
+}
+html,body
+{
+	color:#333
+}
+body{
+	background: #fff;
+	overflow-x: hidden;
+}
+ul,ol,li{
+	list-style: none;
+}
+a:link,a:visited{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #12b7f5;
+}
+img{
+	border: none;
+}
+em{
+	font-style: normal;
+}
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+/*清除浮动*/
+.clearfix:after{
+　　content:"";
+　　height:0;
+　　line-height:0;
+　　display:block;
+　　visibility:hidden;
+　　clear:both
+}
+
+.clearfix{
+　　zoom:1;
+}
+
+
+ 
+/*导航开始*/
+.qq_nav{
+    height: 150px;
+    /*background: url("../image/lineartop.png") repeat-x;*/ 
+    /*background-color: #fff;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+.qq_nav .wrapper{
+    width: 1080px;
+    height: 75px;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+    /*overflow: hidden;*/
+}
+.qq_nav .wrapper .logo{
+    width: 100px;
+    height: 75px;
+    background: url("../image/imlogo_b.png") no-repeat center;
+    float: left;
+}
+.qq_nav .wrapper .nav{
+    float: left;
+}
+.qq_nav .wrapper .nav li{
+    float: left;
+    font-size: 18px;
+    line-height: 75px;
+    margin-left: 20px;
+}
+.qq_nav .wrapper .nav li a{
+    display: block;
+    padding: 0 20px;
+}
+.qq_nav .wrapper .nav .active{
+    background: #12b7f5;
+}
+/*.qq_nav .wrapper .nav li a,*/
+.qq_nav .wrapper .nav li a:hover{
+    background: #12b7f5;
+}
+.qq_nav .wrapper .nav li a:hover{
+    color: #333;
+}
+
+.qq_nav .wrapper .register{
+    float: right;
+    height: 36px;
+    width: 96px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    background: #12b7f5;
+    color: #fff;
+    border-radius: 18px;
+    margin-top:19px;
+}
+.qq_nav .wrapper .other{
+    float: right;
+    width: 250px;
+    height: 75px;
+}
+.qq_nav .wrapper .other ul {
+    width: 250px;
+}
+.qq_nav .wrapper .other ul li{
+    float: right;
+    margin-left:40px;
+}
+.qq_nav .wrapper .other ul li a{
+    font-size: 14px;
+    text-shadow: 0 0 2px #333;
+    height: 50px;
+    line-height: 50px;
+}
+.qq_nav .wrapper .other span{
+    float: right;
+}
+/*展示部分*/
+.down_banner{
+    width: 100%;
+    height: 645px;
+    background-color: pink;
+    background:url("../image/bg001.png") no-repeat;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    /*z-index: 999;*/
+   /* margin-left: -960px;
+    left: 50%;*/
+
+}
+.down_banner .qq_pc a{
+    width: 100%;
+    height: 400px;  
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-indent: -9999em;
+}
+.down_banner img{
+    border: 0;
+}
+/*主体部分*/
+.newfun {
+    width: 980px;
+    padding: 60px 0 80px;
+    /*margin: 0 auto;*/
+    /*background-color: pink;*/
+    position: absolute;
+    top: 545px;
+    left: 50%;
+    margin-left: -490px;
+}
+.newfun ul {
+    border: 1px solid #eeeeee;
+    border-bottom: none;
+}
+.newfun li {
+    border-bottom: 1px solid #eeeeee;
+}
+.newfun li:hover{
+    background:  #eeeeee;
+}
+.newfun li strong {
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    text-align: center;
+    color: #343434;
+}
+.newfun li strong:hover{
+   color: #12b7f5;
+}
+.newfun li .link01,.newfun li .date {
+    float: left;
+    margin-top: -40px;
+    margin-left: 20px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #727373;
+    left:30px;
+    top:30px;
+    
+}
+.newfun li .link01 {
+    float: right;
+    margin-right: 20px;
+}
+
+.newfun li em {
+    clear: both;
+    display: block;
+    color: #737373;
+    padding: 0 60px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+
+/*底部*/
+.qq_footer{
+    height: 250px;
+    background: #2a2a2a;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+    color: #666;
+    position: relative;
+    bottom: -1596px;
+}
+.plats{
+    width: 800px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+.plats a {
+    float: left;
+    background: transparent url(../image/plats1.png) no-repeat 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    padding-top: 50px;
+    width: 80px;
+    margin: 0 60px;
+}
+.plats a:hover {
+    color: #12b7f5;
+}
+.plats a.plmb {
+    background-position: 0 0;
+}
+.plats a.plmb:hover {
+    background-position: 0 -93px;
+}
+.plats a.plpc {
+    background-position: -105px 0;
+}
+.plats a.plpc:hover {
+    background-position: -105px -93px;
+}
+.plats a.plmac {
+    background-position: -210px 0;
+}
+.plats a.plmac:hover {
+    background-position: -210px -93px;
+}
+.plats a.plpad {
+    background-position: -326px 0;
+}
+.plats a.plpad:hover {
+    background-position: -326px -93px;
+}
+
+.qq_sound .bg,.qq_file .bg,.qq_interest .bg{
+    background-attachment: fixed;
+}
